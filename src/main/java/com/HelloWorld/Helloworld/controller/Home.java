@@ -10,5 +10,11 @@ public class Home {
     public String sayHi()
         {
         return "HI stay home stay safe.....";
+
+    }
+    @RequestMapping("/hello")
+    public String sayHello()
+    {
+        return "Hello.....";
     }
 }
